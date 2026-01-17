@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { GraduationCap, Mail, User, Check, Loader2, X, Trophy, Sparkles } from 'lucide-react';
+import { GraduationCap, Mail, User, Check, Loader2, Trophy, Sparkles } from 'lucide-react';
 import { SUBSCRIPTION_SOURCES } from './constants';
 import { upsertUserSubscription, getSubscriberCount } from './services/supabaseService';
 import { ToastState } from './types';
