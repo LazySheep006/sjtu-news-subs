@@ -1,0 +1,5 @@
+{
+  "name": "SJTU News Watchdog",
+  "description": "A subscription management portal for SJTU news alerts, featuring a clean academic design and Supabase integration.",
+  "requestFramePermissions": []
+}
