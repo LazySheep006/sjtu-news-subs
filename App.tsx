@@ -195,10 +195,10 @@ const App: React.FC = () => {
               <GraduationCap size={48} className="text-white drop-shadow-md" />
             </div>
             <div>
-              <h1 className="text-3xl font-bold tracking-tight mb-2">SJTU 资讯日报</h1>
+              <h1 className="text-3xl font-bold tracking-tight mb-2">SJTU-News-Watchdog</h1>
               <div className="h-1 w-12 bg-white/30 mx-auto rounded-full mb-2"></div>
               <p className="text-sjtuRed-50 text-sm md:text-base max-w-md opacity-90 leading-relaxed">
-                基于 AI 的校园通知聚合助手<br/>每天自动推送您关注的学院动态
+                基于 AI 的校园通知聚合助手<br/>每天自动推送您关注的学院官网更新通知
               </p>
             </div>
           </div>
@@ -318,12 +318,12 @@ const App: React.FC = () => {
                     正在同步...
                   </>
                 ) : (
-                  '立即订阅'
+                  '立即订阅/修改订阅'
                 )}
               </button>
               <p className="text-center text-xs text-gray-400 mt-5 leading-relaxed">
                 点击订阅即表示您同意接收每日邮件推送。<br/>
-                不想看了？随时可以在邮件底部取消订阅。
+               只会在有更新的时候推送您订阅的通知
               </p>
             </div>
           </form>
